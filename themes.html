@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Social Inequality (racial inequality)</li>
+					<li data-theme="d">It is quite clear in the novel that the town of Maycomb has a very established social ladder.</li>
+					<li data-theme="c">Sitting at the peak are the well of and well respected like the Finch family, below come the average town citizens, the ignorant farming community, the poor white trash, and lastly the black community (within which has its own hierarchy).</li>
+					<li data-theme="d">Despite many of the black community being law abiding and respectable people, they still fall below the whites in this racially divided community.</li>
+					<li data-theme="c">A black persons word ranks lower than even the scummiest white persons; this is clearly proven in the trial of Tom Robinson.</li>
+					<li data-theme="d">At this time period it is still a long way before racial equality is customary, however the novel does show some progress.</li>
+					<li data-theme="c">During the trial, the jury spends several hours deliberating a case that would have been decided previously in a matter of minutes.</li>
+					<li data-theme="d">Though Tom is convicted, it is clear that some progress has been made, much of which is thanks to Atticus.</li>
+					<li data-theme="c">Inequality is the driving force behind the novel and the central theme.</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Developing quality morals</li>
+					<li data-theme="d">In the novel Scout and Jem are raised by a very virtuous father who desires children with strong morals.</li>
+					<li data-theme="c">He recognizes the most important aspects in life center around being a person of good morals, and as a lawyer and a father he works everyday to be the best person and father he can be.</li>
+					<li data-theme="d">Atticus sees that many of the children in the community lack the proper foundation for good morals due to the prejudices held by their families, he vows not to allow the same to come of his children.</li>
+					<li data-theme="c">He therefore introduces them to the black community and shows it as something positive as opposed to the negative view held by many of the whites in Maycomb.</li>
+					<li data-theme="d">Atticus uses an approach of compassion and sympathy to others in the community and instills it on his children in order so that they may have the best qualities.</li>
+					<li data-theme="c">It seems to prove successful as the children prove at the end of the novel that they are well rounded and far more accepting of any other person at their age .</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>To Kill a Mockingbird</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
